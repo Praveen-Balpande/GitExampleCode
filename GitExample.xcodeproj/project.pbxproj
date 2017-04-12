@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC42401A1E9E408800E1FC89 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4240191E9E408800E1FC89 /* MapForItinerary.swift */; };
 		AC47D64A1E9DF77D00515443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47D6491E9DF77D00515443 /* AppDelegate.swift */; };
 		AC47D64C1E9DF77D00515443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47D64B1E9DF77D00515443 /* ViewController.swift */; };
 		AC47D64F1E9DF77D00515443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC47D64D1E9DF77D00515443 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4240191E9E408800E1FC89 /* MapForItinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 		AC47D6461E9DF77D00515443 /* GitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC47D6491E9DF77D00515443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC47D64B1E9DF77D00515443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				AC47D6491E9DF77D00515443 /* AppDelegate.swift */,
 				AC47D64B1E9DF77D00515443 /* ViewController.swift */,
+				AC4240191E9E408800E1FC89 /* MapForItinerary.swift */,
 				AC47D64D1E9DF77D00515443 /* Main.storyboard */,
 				AC47D6501E9DF77D00515443 /* Assets.xcassets */,
 				AC47D6521E9DF77D00515443 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				AC47D64C1E9DF77D00515443 /* ViewController.swift in Sources */,
 				AC47D64A1E9DF77D00515443 /* AppDelegate.swift in Sources */,
+				AC42401A1E9E408800E1FC89 /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				AC47D6701E9DF77D00515443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC47D6711E9DF77D00515443 /* Build configuration list for PBXNativeTarget "GitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				AC47D6731E9DF77D00515443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC47D6741E9DF77D00515443 /* Build configuration list for PBXNativeTarget "GitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				AC47D6761E9DF77D00515443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
